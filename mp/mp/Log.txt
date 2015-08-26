@@ -1,0 +1,43 @@
+6/14/2015 09:46:01 : Inside Page load, not postback
+6/14/2015 09:46:01 : username is null, redirecting to login page
+6/14/2015 09:48:13 : Inside Page load, not postback
+6/14/2015 09:48:13 : username is null, redirecting to login page
+6/14/2015 09:49:16 : Inside Page load, not postback
+6/14/2015 09:49:16 : username is not null
+6/14/2015 10:01:44 : Inside Page load, not postback
+6/14/2015 10:01:44 : username is not null
+6/14/2015 10:02:07 : Inside Page load, not postback
+6/14/2015 10:02:19 : username is not null
+6/14/2015 10:02:33 : received fbcode : AQCLhBvHvCUQCDeB_lEXTq9aBKHbf8VdD7D_hiWPEe3dPk8J_N0d4KoZl93O-Z8kMguqxnuBh9jHce2e7pi3JT6z3mqLQrfmfFKvYYE1S0QGOjbgvKSZ0pNGfheEaa2cxhKYzJmsRFO-8wC2zjuzDfXOQEJHgX2x4kWs-cZvszZk8kyqDLtWLcLIfRFwFUM2YIizMnt1oaLSYNzcbMh2neo1lBXB-gF9ceC8MqvXKpKke6WkUdOCAS7C2xwLmkJUJE3Pnz9E3M_HTmweAFkUtCtFPjkjtdCWzy11EAy1TroC0pqqSivJcDMval2NzdC-_a8
+6/14/2015 10:04:50 : Inside Page load, not postback
+6/14/2015 10:04:50 : username is not null
+6/14/2015 10:04:58 : Inside Page load, not postback
+6/14/2015 10:04:58 : username is not null
+6/14/2015 10:04:58 : received fbcode : AQCpehLMYn9qAckgoIKVcD1EHK1Zc5RNTEpGOD5SAFIl8Wp7r1QKHOytrqRu2saShC9eKJS65JmGx5tTicIZm-gEUc2Juld0eLGiu2Vi8c7uxaWto-eQT3CKq4g7pufnSFjgetWbyW_AQFhHoW_jSbgMYEzT5LmSZHtFf0ELQGCk_JT6vkZ31I2yWXOcBBZXAkZx4t8UvBI6UeaqUsq5rpRl2-3_d0jkd1Y5IaMod5eVcXN9EdNmhqsLaF6LU56hP9lYnATQWfgwghj7pJuYo5eR7yC1o90MSSCH9-5IOVF0xH61Iw7JrlMuYAHoICLEnLE
+6/14/2015 10:44:58 : Inside Page load, not postback
+6/14/2015 10:44:59 : username is not null
+6/14/2015 10:48:36 : Inside Page load, not postback
+6/14/2015 10:48:36 : username is not null
+6/14/2015 10:51:22 : Inside Page load, not postback
+6/14/2015 10:51:22 : username is not null
+6/14/2015 11:07:16 : Inside Page load, not postback
+6/14/2015 11:07:16 : username is not null
+6/14/2015 11:12:18 : Inside Page load, not postback
+6/14/2015 11:12:18 : username is not null
+6/20/2015 02:14:15 : Twitter page load started
+6/20/2015 02:14:17 : variables are not null
+6/20/2015 02:14:19 : token is : 57YzJgAAAAAAgK9fAAABTg-PL1s
+6/20/2015 02:14:20 : verifier is : FHlw9bvLeqfGuFLG4yh0rFZ26iGZHgs6
+6/20/2015 02:14:21 : helper initialized, going to get token
+6/20/2015 02:14:38 : token is : 137195584-FFIR6x6YeFD6wV8hBpqHFgtDexxKBqWroII3wFC5
+6/20/2015 02:15:37 : Twitter page load started
+6/20/2015 02:16:41 : Twitter page load started
+6/20/2015 02:16:48 : variables are not null
+6/20/2015 02:16:54 : token is : 57YzJgAAAAAAgK9fAAABTg-PL1s
+6/20/2015 02:16:54 : verifier is : FHlw9bvLeqfGuFLG4yh0rFZ26iGZHgs6
+6/20/2015 02:16:57 : helper initialized, going to get token
+6/20/2015 02:17:02 : token is : 
+6/20/2015 03:18:43 : Twitter page load started
+6/21/2015 16:17:50 : System.Collections.Generic.List`1[TweetSharp.TwitterStatus]
+6/21/2015 16:28:42 : System.Collections.Generic.List`1[TweetSharp.TwitterStatus]
+6/21/2015 16:41:55 : System.Collections.Generic.List`1[TweetSharp.TwitterStatus]

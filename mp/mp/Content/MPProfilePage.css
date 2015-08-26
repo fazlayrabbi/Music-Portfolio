@@ -1,0 +1,491 @@
+﻿body {
+    background-color: #000000;
+}
+#neverdisplay{
+    display: none;
+}
+#abc {
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto
+}
+img#close {
+
+margin: 2px;
+position:absolute;
+
+right:0px;
+top:5px;
+max-height:20px;
+min-width: 20px;
+cursor:pointer;
+}
+div#popupContact {
+    display: block;
+    width: 500px;
+position: absolute;
+    left:30%;
+    top: 3%;
+margin-left: auto;
+margin-right: auto;
+font-family:'Raleway',sans-serif;
+}
+.fblike {
+font-size: 12px;
+ margin: 8px;
+ }
+#twitter{
+list-style-type: none;
+background-color: #FFFFFF;
+margin: auto;
+}
+.fbstatus{
+list-style-type: none;
+background-color: #FFFFFF;
+margin: auto;
+}#fblist{
+     margin-top: 4px;
+     margin-bottom: 4px;
+}.fblike {
+     font-size: 12px;
+     margin: 8px;
+}.fblink{
+     margin-right: 5px;
+      width: 100px;
+      height: 100px;
+      } 
+/*form {
+margin-left: auto;
+margin-right: auto;
+max-width: 1200px;
+min-width: 1200px;
+padding:10px 50px;
+border:2px solid gray;
+position: absolute;
+border-radius:10px;
+font-family:raleway;
+background-color: transparent;
+}*/
+textarea {
+    resize: none;
+}
+.formLabel{
+    clear:left;
+}
+.container{
+    width: 100%;
+    clear: both;
+    margin: 0 136px 20px 136px;
+    vertical-align: central;
+    position: center;
+    min-height: 1000px;
+}
+
+.left_float{
+    width: 49%;
+    clear: both;
+    float: left;
+    padding-right: 5px;
+     background-color: #E0E0E0 ;
+    margin-right: 18px;
+    margin-bottom: 20px;
+    min-height: 800px;
+    padding-left: 5px;
+}
+
+.right_float{
+    width: 49%;
+    float: right;
+     background-color: #E0E0E0 ;
+     min-height: 800px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+.inner_right_float{
+    width: 45%;
+    float: left;
+      padding-right: 5px;
+     max-height: 400px;
+    padding-left: 5px;
+     
+}
+
+.inner_left_float{
+    width: 49%;
+    clear: both;
+    float: left;
+    
+    max-height: 400px;
+    padding-left: 5px;
+}
+
+.buttons{
+   margin: auto;
+   text-align: center;
+   
+}
+
+.text{
+    clear: both;
+}
+
+#profilePic{
+    height: 200px;
+    width: 200px;
+    padding-right:5px;
+}
+/*
+div#local{
+    display:block;
+}
+
+div#facebook{
+    display:none;
+}
+
+div#twitter{
+    display:none;
+}
+
+div#insta{
+    display:none;
+}
+div#soundcloud{
+    display:none;
+}
+div#youtube{
+    display:none;
+
+}*/
+.ScrollStyle
+{
+    margin: auto;
+	max-width: 400px;
+    max-height: 700px;
+    overflow-y: scroll;
+    background-color: #F0F0F0 ;
+}
+.ScrollStyleyt
+{
+    white-space:nowrap;
+    float: left;
+    clear: both;
+	width: 100%;
+    max-width: 100%;
+    height: 105px;
+    max-height: 100px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    background-color: #F0F0F0 ;
+}
+#youtubeframe {
+    clear: left;
+    float: left;
+    height: 400px;
+    width: 100%;
+}
+.ytthumbnail{
+    margin: 2px 2px 2px 2px;
+}
+ul
+{
+    list-style-type: none;
+}
+
+.instapics{
+    list-style-type: none;
+    background-color: #F0F0F0;
+}
+
+#instaLoad{
+    width: 100%;
+    background-color: grey;
+}
+
+#sc-widget{
+    width: 100%;
+    height: 700px;
+}
+
+.footer{
+    padding: 5px 5px 5px 5px;
+    background-color: #E0E0E0;
+     width: 100%;
+    clear: both;
+    vertical-align: central;
+    position: center;
+    min-height: 50px;
+}
+
+
+@media (max-width: 991px) and (min-width: 565px){
+#youtubeframe {
+    clear: left;
+    float: left;
+    height: 300px;
+    width: 100%;
+}
+.ytthumbnail{
+    margin: 2px 2px 2px 2px;
+}
+    /*form {
+max-width:300px;
+min-width:300px;
+padding:10px 50px;
+border:2px solid gray;
+border-radius:10px;
+font-family:raleway;
+background-color:transparent;
+}*/
+div#popupContact {
+position:absolute;
+align-content: center;
+top:4%;
+left: 7%;
+margin-left: auto;
+margin-right: auto;
+font-family:'Raleway',sans-serif;
+}
+    .thumbnails{
+        
+    }
+    #sc-widget{
+    width: 100%;
+    height: 400px;
+}
+    .left_float {
+        float: none;
+        width: 100%;
+        min-height: 500px;
+        max-height: 500px;
+    }
+    .right_float {
+        float: none;
+        width: 100%;
+        min-height: 500px;
+    }
+    .ScrollStyle
+    {
+	    max-width: 400px;
+     max-height: 400px;
+     overflow-y: scroll;
+     background-color: white;
+    }
+}
+
+@media (max-width: 564px) and (min-width: 455px){
+#youtubeframe {
+    clear: left;
+    float: left;
+    height: 300px;
+    width: 100%;
+}
+.ytthumbnail{
+    margin: 2px 2px 2px 2px;
+}
+div#popupContact {
+    display: block;
+    width: 400px;
+position: absolute;
+    left:5%;
+    top: 3%;
+margin-left: auto;
+margin-right: auto;
+font-family:'Raleway',sans-serif;
+}
+    /*form {
+max-width:200px;
+min-width: 200px;
+padding:10px 50px;
+border:2px solid gray;
+border-radius:10px;
+font-family:raleway;
+background-color:transparent;
+}*/
+    .thumbnails{
+        
+    }
+    .btn {
+        font: 8px;
+    }
+    .btn{
+        font: 8px;
+    }
+    #sc-widget{
+    width: 100%;
+    height: 400px;
+}
+    .left_float {
+        float: none;
+        width: 100%;
+        min-height: 530px;
+        max-height: 530px;
+    }
+    .right_float {
+        float: none;
+        width: 100%;
+        min-height: 500px;
+    }
+    .ScrollStyle
+    {
+	    max-width: 400px;
+     max-height: 400px;
+     overflow-y: scroll;
+     background-color: white;
+    }
+}
+
+@media (max-width: 454px) and (min-width: 335px){
+#youtubeframe {
+    clear: left;
+    float: left;
+    height: 300px;
+    width: 100%;
+}
+.ytthumbnail{
+    margin: 1px 1px 1px 1px;
+}
+div#popupContact {
+    display: block;
+    width: 300px;
+position: absolute;
+    left:5%;
+    top: 3%;
+margin-left: auto;
+margin-right: auto;
+font-family:'Raleway',sans-serif;
+}
+    /*form {
+max-width:200px;
+min-width: 200px;
+padding:10px 50px;
+border:2px solid gray;
+border-radius:10px;
+font-family:raleway;
+background-color:transparent;
+}*/
+    .inner_right_float{
+    width: 100%;
+    float: left;
+      padding-right: 5px;
+     max-height: 400px;
+    padding-left: 5px;
+     
+}
+
+.inner_left_float{
+    width: 100%;
+    clear: both;
+    float: left;
+    
+    max-height: 400px;
+    padding-left: 5px;
+}
+    .thumbnails{
+        max-width:203px;
+    }
+    #sc-widget{
+    width: 100%;
+    height: 400px;
+}
+    .left_float {
+        float: none;
+        width: 100%;
+        min-height: 530px;
+        max-height: 530px;
+    }
+    .right_float {
+        float: none;
+        width: 100%;
+        min-height: 600px;
+    }
+    .ScrollStyle
+    {
+	    max-width: 400px;
+     max-height: 400px;
+     overflow-y: scroll;
+     background-color: white;
+    }
+}
+
+@media (max-width: 334px){
+#youtubeframe {
+    clear: left;
+    float: left;
+    height: 300px;
+    width: 100%;
+}
+.ytthumbnail{
+    margin: 1px 1px 1px 1px;
+}
+div#popupContact {
+    display: block;
+    width: 200px;
+position: absolute;
+    left:2%;
+    top: 2%;
+margin-left: auto;
+margin-right: auto;
+font-family:'Raleway',sans-serif;
+}
+    /*form {
+max-width:200px;
+min-width: 200px;
+padding:10px 50px;
+border:2px solid gray;
+border-radius:10px;
+font-family:raleway;
+background-color:transparent;
+}*/
+    .inner_right_float{
+    width: 100%;
+    float: left;
+      padding-right: 5px;
+     max-height: 400px;
+    padding-left: 5px;
+     
+}
+
+
+
+.inner_left_float{
+    width: 100%;
+    clear: both;
+    float: left;
+    
+    max-height: 400px;
+    padding-left: 5px;
+}
+    .thumbnails{
+        max-width:203px;
+    }
+    #sc-widget{
+    width: 100%;
+    height: 400px;
+}
+    .left_float {
+        float: none;
+        width: 100%;
+        min-height: 560px;
+        max-height: 560px;
+    }
+    .right_float {
+        float: none;
+        width: 100%;
+        min-height: 600px;
+    }
+    .ScrollStyle
+    {
+	    max-width: 400px;
+     max-height: 400px;
+     overflow-y: scroll;
+     background-color: white;
+    }
+}
