@@ -1,0 +1,395 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:backgroundTint="#ff90fffa"
+    android:id="@+id/mainLayout">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView"
+        android:layout_below="@+id/horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        />
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontal"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Bio"
+                android:id="@+id/bio"
+                android:textColor="@drawable/text_color"
+                android:background="@drawable/button_color"
+                android:clickable="true" />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Twitter"
+                android:id="@+id/twitter"
+                android:textColor="@drawable/text_color"
+                android:background="@drawable/button_color"
+                android:clickable="true"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Facebook"
+                android:id="@+id/facebook"
+                android:textColor="@drawable/text_color"
+                android:background="@drawable/button_color"
+                android:clickable="true" />
+
+            <Button
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Instagram"
+                android:id="@+id/instagram"
+                android:textColor="@drawable/text_color"
+                android:background="@drawable/button_color"
+                android:clickable="true" />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Local"
+                android:id="@+id/local"
+                android:textColor="@drawable/text_color"
+                android:background="@drawable/button_color"
+                android:clickable="true" />
+            <Button
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="SoundCloud"
+                android:id="@+id/soundcloud"
+                android:textColor="@drawable/text_color"
+                android:background="@drawable/button_color"
+                android:clickable="true" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/horizontal"
+        android:background="#ffffffff"
+        android:layout_margin="5dp"
+        android:id="@+id/biographyMain">
+
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/profilePic"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="5dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/profilePic"
+            android:layout_toEndOf="@+id/profilePic"
+            android:layout_margin="5dp"
+            android:id="@+id/bioTop">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nameLayout">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Name:"
+                    android:id="@+id/name"
+                    android:layout_gravity="left|top"
+                    android:layout_margin="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/name"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:id="@+id/nameVal"
+                    android:layout_gravity="left|top"
+                    android:layout_margin="5dp"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_below="@id/nameLayout"
+                android:layout_height="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Genre:"
+                android:id="@+id/genre"
+                android:layout_gravity="left|center_vertical"
+                android:layout_margin="5dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/genre"
+                android:layout_below="@id/nameLayout"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:id="@+id/genreVal"
+                android:layout_gravity="left|top"
+                android:layout_margin="5dp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/agentLayout"
+                android:layout_below="@id/genre"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Agent:"
+                    android:id="@+id/agent"
+                    android:layout_gravity="left|bottom"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/agent"
+
+                    android:id="@+id/agentVal"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:layout_gravity="left|top"
+                    android:layout_margin="5dp" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/agentLayout"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Phone:"
+                android:id="@+id/phone"
+                android:layout_gravity="left"
+                android:layout_margin="4dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/phone"
+                android:layout_below="@+id/agentLayout"
+                android:id="@+id/phoneVal"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:layout_gravity="left|top"
+                android:layout_margin="4dp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bioTop"
+            android:id="@+id/biography"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Biography"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp"
+            android:background="#ffffffff" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/biography"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/biographyVal"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </ScrollView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/horizontal"
+        android:background="#ffffffff"
+        android:layout_margin="5dp"
+        android:id="@+id/facebookMain">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:id="@+id/facebookFeed"
+                android:layout_margin="5dp"
+                />
+
+        </ScrollView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/horizontal"
+        android:background="#ffffffff"
+        android:layout_margin="5dp"
+        android:id="@+id/instagramMain">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:id="@+id/instagramFeed"
+                android:layout_margin="5dp"
+                />
+
+        </ScrollView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/horizontal"
+        android:background="#ffffffff"
+        android:layout_margin="5dp"
+        android:id="@+id/twitterMain">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:id="@+id/twitterFeed"
+                android:layout_margin="5dp"
+                />
+
+        </ScrollView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/horizontal"
+        android:background="#ffffffff"
+        android:layout_margin="5dp"
+        android:id="@+id/localMain">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/musicPlayerLayout"
+            android:background="#ffffffff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/songName"
+            android:id="@+id/tempLayout"
+            android:background="#ffffffff">
+            <SurfaceView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/video"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/songName"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/seekBar" />
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:layout_above="@+id/playerInfoText" />
+        <RelativeLayout
+            android:id="@+id/playerInfoText"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_above="@+id/mediaButtons">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/timePassed"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/timeLeft"
+                android:layout_alignParentRight="true"/>
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/mediaButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center" >
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="prev"
+                android:id="@+id/previous"
+                android:layout_centerHorizontal="true"  />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="||"
+                android:id="@+id/stop"
+                android:layout_centerHorizontal="true"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=">"
+                android:id="@+id/play"
+                android:layout_centerHorizontal="true" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="next"
+                android:id="@+id/next"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

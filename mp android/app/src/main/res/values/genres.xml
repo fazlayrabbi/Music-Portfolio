@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="genre_prompt">Genres</string>
+    <string-array name="genre_array">
+        <item>All</item>
+        <item>Alternative</item>
+        <item>Blues</item>
+        <item>Classical</item>
+        <item>Country</item>
+        <item>Dance</item>
+        <item>Inspirational</item>
+        <item>Jazz</item>
+        <item>New Age</item>
+        <item>Opera</item>
+        <item>Pop</item>
+        <item>R&amp;B Soul</item>
+        <item>Rock</item>
+    </string-array>
+</resources>
